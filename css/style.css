@@ -302,8 +302,8 @@ body .home .content p {
     }
 
     .home .image img{
-        width: 100%;
-        height: 70vh;
+        width: auto;
+        height: 100vh;
     }
 
     .home .content{
