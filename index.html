@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destinados - Sueña un destino</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <!-- custom css file cdn link -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+</head>
+<body>
+    <!-- header section starts -->
+
+    <header class="header">
+
+        <a href="index.html" class="logo"><img src="images/logo-blanco.png" alt="company logo"></a>
+
+        <!-- <form action="" class="search-form">
+            <input type="search" name="" placeholder="buscar aquí..." id="searchBox">
+            <label for="searchBox" class="fas fa-search"></label>
+        </form> -->
+
+        <div class="icons">
+            <!-- <div class="fas fa-search" id="search-btn"></div> -->
+            <div class="fas fa-moon" id="theme-btn"></div>
+            <!-- <div class="fas fa-user" id="login-btn"></div> -->
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+
+        <nav class="navbar">
+            <a href="#home">inicio</a>
+            <a href="#packages">eventos</a>
+            <a href="#services">servicios</a>
+            <a href="#review">reseñas</a>
+            <a href="#contact">contacto</a>
+            <!-- <a href="#blogs">blogs</a> -->
+        </nav>
+
+        <form action="" class="login-form">
+
+            <div class="inputBox">
+                <span>username</span>
+                <input type="text" placeholder="enter your name">
+            </div>
+
+            <div class="inputBox">
+                <span>password</span>
+                <input type="password" placeholder="enter your password">
+            </div>
+
+            <div class="remember">
+                <input type="checkbox" name="" id="login-remember">
+                <label for="login-remember">remember me</label>
+            </div>
+
+            <input type="submit" class="btn" value="login">
+
+        </form>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts -->
+
+    <section class="home" id="home">
+        <div class="swiper mySwiper review-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/las-terrazas.jpeg" alt="Las Terrazas Cuba">
+                    </div>
+
+                    <div class="content">
+                        <h3>Complejo las Terrazas</h3>
+                        <p>Reserva de la biosfera de la Sierra del Rosario.</p>
+                        <a href="https://api.whatsapp.com/send?phone=5354073262&text=Quiero reservar el evento Las Terrazas" target="_blank" class="btn">Reservar</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/varadero-3.jpeg" alt="Varadero">
+                    </div>
+
+                    <div class="content">
+                        <h3>Varadero</h3>
+                        <p>Disfruta de un día en la playa más famosa de Cuba.</p>
+                        <a href="https://api.whatsapp.com/send?phone=5354073262&text=Quiero reservar el evento Varadero" target="_blank" class="btn">Reservar</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/trinidad-2.jpg" alt="Trinidad Cuba">
+                    </div>
+
+                    <div class="content">
+                        <h3>Trinidad</h3>
+                        <p>La ciudad museo del Caribe</p>
+                        <a href="https://api.whatsapp.com/send?phone=5354073262&text=Quiero reservar el evento Trinidad" target="_blank" class="btn">Reservar</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/cienfuegos-1.jpg" alt="Cienfuegos Cuba">
+                    </div>
+
+                    <div class="content">
+                        <h3>Cienfuegos</h3>
+                        <p>Paseo por la Perla del Sur.</p>
+                        <a href="https://api.whatsapp.com/send?phone=5354073262&text=Quiero reservar el evento Cienfuegos" target="_blank" class="btn">Reservar</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/vinales-1.jpg" alt="Viñales">
+                    </div>
+
+                    <div class="content">
+                        <h3>Viñales</h3>
+                        <p>Conoce el gran mural de la prehistoria.</p>
+                        <a href="https://api.whatsapp.com/send?phone=5354073262&text=Quiero reservar el evento Viñales" target="_blank" class="btn">Reservar</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/soroa-2.jpeg" alt="Soroa">
+                    </div>
+
+                    <div class="content">
+                        <h3>Soroa</h3>
+                        <p>Reserva un viaje al arcoíris de Cuba.</p>
+                        <a href="https://api.whatsapp.com/send?phone=5354073262&text=Quiero reservar el evento Soroa" target="_blank" class="btn">Reservar</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!-- home section ends -->
+
+
+
+    <!-- Packages section starts -->
+
+    <section class="packages" id="packages">
+
+        <h1 class="heading"> nuestros <span>eventos</span></h1>
+
+        <div class="box-container" >
+            <div class="box" data-aos="fade-up">
+                <div class="image">
+                    <img src="images/p-1.jpeg" alt="">
+                    <h3> <i class="fas fa-map-marker-alt"></i> trinidad</h3>
+                </div>
+                <div class="content">
+                    <div class="price">7100.00 CUP</div>
+                    <p>Dos noches en la ciudad museo del caribe. Transporte, hospedaje, alimentación y recorridos guiados incluidos..</p>
+                    <a href="#" class="btn">ver programa</a>
+                </div>
+            </div>
+            
+            <div class="box" data-aos="fade-up">
+                <div class="image">
+                    <img src="images/p-2.jpeg" alt="">
+                    <h3> <i class="fas fa-map-marker-alt"></i> cienfuegos</h3>
+                </div>
+                <div class="content">
+                    <div class="price">1800.00 CUP</div>
+                    <p>Reserva este atractivo paseo por la Perla del Sur y hazte una foto con la famosa estatua del Benny Moré. Transporte y almuerzo incluido.</p>
+                    <a href="#" class="btn">ver programa</a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up">
+                <div class="image">
+                    <img src="images/p-3.jpeg" alt="">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Viñales</h3>
+                </div>
+                <div class="content">
+                    <div class="price">1500.00 CUP</div>
+                    <p>Reserva un viaje a viñales y conoce el gran mural de la prehistoria, con transporte y almuerzo incluido.</p>
+                    <a href="#" class="btn">ver programa</a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up">
+                <div class="image">
+                    <img src="images/p-4.jpeg" alt="">
+                    <h3> <i class="fas fa-map-marker-alt"></i> las terrazas</h3>
+                </div>
+                <div class="content">
+                    <div class="price">1300.00 CUP</div>
+                    <p>Reserva un viaje a la comunidad de Las Terrazas en la reserva de la biosfera de la Sierra del Rosario, donde se encuentra  la casa museo de Polo Montañez</p>
+                    <a href="#" class="btn">ver programa</a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up">
+                <div class="image">
+                    <img src="images/p-5.JPG" alt="">
+                    <h3> <i class="fas fa-map-marker-alt"></i> soroa</h3>
+                </div>
+                <div class="content">
+                    <div class="price">1300.00 CUP</div>
+                    <p>Reserva un viaje al arcoíris de Cuba. Conocido por su impresionante orquideario. Transporte y almuerzo incluidos.</p>
+                    <a href="#" class="btn">ver programa</a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up">
+                <div class="image">
+                    <img src="images/p-6.JPG" alt="">
+                    <h3> <i class="fas fa-map-marker-alt"></i> varadero</h3>
+                </div>
+                <div class="content">
+                    <div class="price">750.00 CUP</div>
+                    <p>Disfruta de un día en la playa más famosa de Cuba. <br>Transporte incluido</p>
+                    <a href="#" class="btn">ver programa</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Packages section ends -->
+    
+
+    <!-- SERVICES SECTION STARTS -->
+
+        <section class="services" id="services">
+
+            <h1 class="heading">nuestros <span>servicios</span></h1>
+
+            <div class="box-container">
+                <div class="box" data-aos="fade-down">
+                    <span>01</span>
+                    <i class="fas fa-hotel"></i>
+                    <h3>alojamiento económico</h3>
+                    <p>En caso de alojamiento, sería un todo incluido.</p>
+                </div>
+
+                <div class="box" data-aos="fade-down">
+                    <span>02</span>
+                    <i class="fas fa-bus"></i>
+                    <h3>transporte</h3>
+                    <p>Transporte ida y vuelta.</p>
+                </div>
+
+                <div class="box" data-aos="fade-down">
+                    <span>03</span>
+                    <i class="fas fa-utensils"></i>
+                    <h3>comida</h3>
+                    <p>Almuerzo y un líquido en caso de una excursión de un día.</p>
+                </div>
+
+                <div class="box" data-aos="fade-down">
+                    <span>04</span>
+                    <i class="fas fa-hiking"></i>
+                    <h3>recorridos guiados</h3>
+                    <p>Guía turístico en todo el trayecto.</p>
+                </div>
+
+                <div class="box" data-aos="fade-down">
+                    <span>05</span>
+                    <i class="fas fa-bullhorn"></i>
+                    <h3>acompañamiento</h3>
+                    <p>Estamos ahí para ti en todo momento.</p>
+                </div>
+            </div>
+        </section>
+
+    <!-- SERVICES SECTION ENDS -->
+
+
+    <!-- Review section starts -->
+
+    <section class="review" id="review">
+
+        <h1 class="heading"> Reseñas de nuestros <span>clientes</span></h1>
+
+        <div class="swiper mySwiper review-slider" data-aos="zoom-in-up">
+            
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <img src="images/pic-1.png" alt="">
+                    <h3>john doe</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit rem necessitatibus omnis quasi magnam, odit architecto reiciendis atque? Cupiditate animi aspernatur id sapiente deleniti quas distinctio nisi quos. Quibusdam, veritatis!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <img src="images/pic-2.png" alt="">
+                    <h3>john doe</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit rem necessitatibus omnis quasi magnam, odit architecto reiciendis atque? Cupiditate animi aspernatur id sapiente deleniti quas distinctio nisi quos. Quibusdam, veritatis!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <img src="images/pic-3.png" alt="">
+                    <h3>john doe</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit rem necessitatibus omnis quasi magnam, odit architecto reiciendis atque? Cupiditate animi aspernatur id sapiente deleniti quas distinctio nisi quos. Quibusdam, veritatis!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <img src="images/pic-1.png" alt="">
+                    <h3>john doe</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit rem necessitatibus omnis quasi magnam, odit architecto reiciendis atque? Cupiditate animi aspernatur id sapiente deleniti quas distinctio nisi quos. Quibusdam, veritatis!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <img src="images/pic-4.png" alt="">
+                    <h3>john doe</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit rem necessitatibus omnis quasi magnam, odit architecto reiciendis atque? Cupiditate animi aspernatur id sapiente deleniti quas distinctio nisi quos. Quibusdam, veritatis!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+        </div>
+
+        
+
+    </section>
+
+    <!-- Review section ends -->
+
+
+    <!-- CONTACT SECTION STARTS -->
+
+    <section class="contact" id="contact" data-aos="zoom-in-down">
+        <h1 class="heading"><span>contactanos</span></h1>
+
+        <form action="https://formsubmit.co/manuelbreareyes@gmail.com" method="POST">
+
+        <div class="inputBox">
+            <input type="text" name="nombre" placeholder="nombre">
+            <input type="email" name="email" id="email" placeholder="correo electrónico">
+        </div>
+
+        <div class="inputBox">
+            <input type="number" name="number" placeholder="número de teléfono">
+            <input type="text" name="text" placeholder="asunto">
+        </div>
+
+        <textarea name="text" placeholder="tu mensaje" id="" cols="30" rows="10"></textarea>
+
+        <input type="submit" value="enviar mensaje" class="btn">
+
+    </form>
+    </section>
+
+
+    <!-- CONTACT SECTION ENDS -->
+
+
+    <!-- FOOTER SECTION STARTS -->
+
+    <section class="footer">
+
+        <div class="footer-margin" >
+            
+            <div class="box-container" data-aos="zoom-out-up">
+                <div class="box">
+                <h3>Nuestros destinos</h3>
+                <a href="#"><i class="fas fa-map-marker-alt"> </i>Trinidad</a>
+                <a href="#"><i class="fas fa-map-marker-alt"> </i>Las Terrazas</a>
+                <a href="#"><i class="fas fa-map-marker-alt"> </i>Soroa</a>
+                <a href="#"><i class="fas fa-map-marker-alt"> </i>Cienfuegos</a>
+                <a href="#"><i class="fas fa-map-marker-alt"> </i>Viñales</a>
+                <a href="#"><i class="fas fa-map-marker-alt"> </i>Varadero</a>
+            </div>
+        </div>
+
+        <div class="box-container" data-aos="zoom-out-up">
+            <div class="box">
+                <h3>Enlaces rápidos</h3>
+                <a href="#home"><i class="fas fa-chevron-right"> </i>Inicio</a>
+                <a href="#packages"><i class="fas fa-chevron-right"> </i>Eventos</a>
+                <a href="#services"><i class="fas fa-chevron-right"> </i>Servicios</a>
+                <a href="#review"><i class="fas fa-chevron-right"> </i>Reseñas</a>
+                <a href="#contact"><i class="fas fa-chevron-right"> </i>Contacto</a>
+            </div>
+        </div>
+
+        <div class="box-container" data-aos="zoom-out-up">
+            <div class="box" >
+                <h3>Contacto</h3>
+                <a href="#"><i class="fas fa-map-marker-alt"></i>La Habana, Cuba </a>
+                <a href="tel:+5354073262"><i class="fas fa-phone"></i>+5354073262</a>
+                <a href="mailto:eventosdestinados@gmail.com"><i class="fas fa-envelope"></i>eventosdestinados@gmail.com </a>
+            </div>
+        </div>
+
+        <div class="box-container" data-aos="zoom-out-up">
+            <div class="box">
+                <h3>Siguenos</h3>
+                <a href="https://www.facebook.com/eventosdestinados"><i class="fa-brands fa-facebook-f"></i>facebook</a>
+                <a href="https://www.instagram.com/eventos_destinados/"><i class="fa-brands fa-instagram"></i>instagram </a>
+            </div>
+        </div>
+
+        </div>
+
+        <div class="credit" ><span>destinados</span> | todos los derechos reservados
+        </div>
+
+    </section>
+
+    <!-- FOOTER SECTION ENDS -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link -->
+    <script src="js/script.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+    
+</body>
+</html>
