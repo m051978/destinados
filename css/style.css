@@ -426,6 +426,11 @@ body .home .content p {
     margin: 0 7%;
 } */
 
+.contact{
+    margin-top: 15rem;
+    margin-bottom: 5rem;
+}
+
 .contact form{
     max-width: 70rem;
     margin: 0 auto;
@@ -445,24 +450,35 @@ body .home .content p {
     margin: .7rem 0;
     text-transform: none;
     font-size: 1.6rem;
-    color: var(--text-color-1);
+    color: var(--text-color-2);
+    box-shadow: var(--box-shadow);
 }
 
 .contact form .inputBox p {
     font-size: 1.6rem;
-    color: var(--text-color-1);
+    color: var(--text-color-2);
     margin: .7rem 0;
 }
 
-.contact form .check-boxes{
+.contact form .promotor{
     display: flex;
+    /* margin: .7rem 0; */
+    width: 100%;
+    padding: .5rem 1rem;
     margin: .7rem 0;
+    font-size: 1.6rem;
+    color: var(--text-color-2);
+    border-radius: .5rem;
+    text-transform: none;
+    background: var(--bg-color-1);
+    box-shadow: var(--box-shadow);
+    justify-content: space-between;
+    align-items: center;
 }
 
-.contact form .check-boxes p{
-    margin-right: 2rem;
-    font-size: 1.6rem;
-    color: var(--text-color-1);
+.contact form .promotor .check-boxes{
+    display: flex;
+
 }
 
 .contact form .check-boxes p input{
@@ -474,7 +490,7 @@ body .home .content p {
     width: 100%;
     padding: 1rem;
     font-size: 1.6rem;
-    color: var(--text-color-1);
+    color: var(--text-color-2);
     margin: .7rem 0;
     background: var(--bg-color-1);
     box-shadow: var(--box-shadow);
@@ -483,7 +499,7 @@ body .home .content p {
 }
 
 
-.contact .select-box{
+.contact form .select-box{
     width: 100%;
     padding: 1rem;
     margin: .7rem 0;
@@ -492,10 +508,13 @@ body .home .content p {
     border-radius: .5rem;
     text-transform: none;
     background: var(--bg-color-1);
+    box-shadow: var(--box-shadow);
 }
 
 
-
+.contact form ::placeholder{
+    color: var(--text-color-2);
+}
 
 
 
@@ -737,6 +756,10 @@ body .home .content p {
     .home .content{
         top: 45rem;
         left: 2rem;
+    }
+
+    .contact{
+        margin-top: 15rem;
     }
 
 }

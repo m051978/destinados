@@ -60,7 +60,7 @@ var swiper = new Swiper(".review-slider", {
 
 //   AT LEAST ONE CHECKBOX MUST BE TICKED
 
-  (function() {
+(function() {
     const form = document.querySelector('.check-boxes');
     const checkboxes = form.querySelectorAll('input[type=checkbox]');
     const checkboxLength = checkboxes.length;
