@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva con Eventos Destinados</title>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <!-- custom css file cdn link -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+</head>
+<body>
+    <!-- header section starts -->
+
+    <header class="header">
+
+        <a href="index.html" class="logo"><img src="images/logo-blanco.png" alt="company logo"></a>
+
+        <div class="icons">
+            <div class="fas fa-moon" id="theme-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+
+        <nav class="navbar">
+            <a href="#home">inicio</a>
+            <a href="#packages">eventos</a>
+            <a href="#services">servicios</a>
+            <a href="#review">reseñas</a>
+            <a href="reserva.html">contacto</a>
+            <!-- <a href="#blogs">blogs</a> -->
+        </nav>
+
+    </header>
+
+    <!-- header section ends -->
+
+
+    <!-- CONTACT SECTION STARTS -->
+
+    <section class="contact" id="contact">
+        <h1 class="heading"><span>Reservar</span></h1>
+
+        <form action="https://formsubmit.co/manuelbreareyes@gmail.com" method="POST">
+    
+        
+        <div class="promotor">
+            <div class="inputBox">
+                <p>¿vienes recomendado por un promotor?</p>
+            </div>
+        
+            <div class="check-boxes">
+                <p><input type="checkbox" name="si tengo promotor" value="si"> Si</p>
+                <p><input type="checkbox" name="no tengo promotor" value="no"> No</p>
+            </div>
+        </div>
+    
+        <div class="inputBox">
+            <input type="text" name="nombre-promotor" required placeholder="nombre del promotor o indicar que no tienes">
+        </div>
+
+        <select class="select-box" id="destino" name="destino" required>
+            <option value="">selecciona tu destino</option>
+            <option value="Trinidad">Trinidad</option>
+            <option value="Cienfuegos">Cienfuegos</option>
+            <option value="Viñales">Viñales</option>
+            <option value="Soroa">Las Terrazas</option>
+            <option value="Soroa">Soroa</option>
+            <option value="Varadero">Varadero</option>
+        </select>
+
+        <select class="select-box" name="asientos" id="asientos" required>
+            <option value="">cantidad de asientos</option>
+            <option value="1-asiento">1 asiento</option>
+            <option value="2-asientos">2 asientos</option>
+            <option value="3-asientos">3 asientos</option>
+            <option value="4-asientos">4 asientos</option>
+            <option value="5-asientos">5 asientos</option>
+            <option value="6-asientos">6 asientos</option>
+            <option value="7-asientos">7 asientos</option>
+            <option value="8-asientos">8 asientos</option>
+            <option value="9-asientos">9 asientos</option>
+            <option value="10-asientos">10 asientos</option>
+            <option value="11-asientos">11 asientos</option>
+            <option value="12-asientos">12 asientos</option>
+            <option value="13-asientos">13 asientos</option>
+            <option value="14-asientos">14 asientos</option>
+            <option value="15-asientos">15 asientos</option>
+            <option value="16-asientos">16 asientos</option>
+            <option value="17-asientos">17 asientos</option>
+            <option value="18-asientos">18 asientos</option>
+            <option value="19-asientos">19 asientos</option>
+            <option value="20-asientos">20 asientos</option>
+            <option value="21-asientos">21 asientos</option>
+            <option value="22-asientos">22 asientos</option>
+            <option value="23-asientos">23 asientos</option>
+            <option value="24-asientos">24 asientos</option>
+            <option value="25-asientos">25 asientos</option>
+            <option value="26-asientos">26 asientos</option>
+            <option value="27-asientos">27 asientos</option>
+            <option value="28-asientos">28 asientos</option>
+            <option value="29-asientos">29 asientos</option>
+            <option value="30-asientos">30 asientos</option>
+            <option value="31-asientos">31 asientos</option>
+            <option value="32-asientos">32 asientos</option>
+            <option value="33-asientos">33 asientos</option>
+            <option value="34-asientos">34 asientos</option>
+            <option value="35-asientos">35 asientos</option>
+            <option value="36-asientos">36 asientos</option>
+            <option value="37-asientos">37 asientos</option>
+            <option value="38-asientos">38 asientos</option>
+            <option value="39-asientos">39 asientos</option>
+            <option value="40-asientos">40 asientos</option>
+        </select>
+
+        <select class="select-box" id="menores-3" name="menores-3" required>
+            <option value="">cantidad de niños (0-3 años)</option>
+            <option value="ninguno (0-3 años)">ninguno (0-3 años)</option>
+            <option value="1 niño (0-3 años)">1 niño (0-3 años)</option>
+            <option value="2 niños (0-3 años)">2 niños (0-3 años)</option>
+            <option value="3 niños (0-3 años)">3 niños (0-3 años)</option>
+            <option value="4 niños (0-3 años)">4 niños (0-3 años)</option>
+            <option value="5 niños (0-3 años)">5 niños (0-3 años)</option>
+            <option value="6 niños (0-3 años)">6 niños (0-3 años)</option>
+            <option value="7 niños (0-3 años)">7 niños (0-3 años)</option>
+            <option value="8 niños (0-3 años)">8 niños (0-3 años)</option>
+            <option value="9 niños (0-3 años)">9 niños (0-3 años)</option>
+            <option value="10 niños menores de 3 años">10 niños (0-3 años)</option>
+        </select>
+
+        <select class="select-box" id="menores+3" name="menores+3" required>
+            <option value="">cantidad de niños (3-12 años)</option>
+            <option value="ninguno (3-12 años)">ninguno (3-12 años)</option>
+            <option value="1 niño (3-12 años)">1 niño (3-12 años)</option>
+            <option value="2 niños (3-12 años)">2 niños (3-12 años)</option>
+            <option value="3 niños (3-12 años)">3 niños (3-12 años)</option>
+            <option value="4 niños (3-12 años)">4 niños (3-12 años)</option>
+            <option value="5 niños (3-12 años)">5 niños (3-12 años)</option>
+            <option value="6 niños (3-12 años)">6 niños (3-12 años)</option>
+            <option value="7 niños (3-12 años)">7 niños (3-12 años)</option>
+            <option value="8 niños (3-12 años)">8 niños (3-12 años)</option>
+            <option value="9 niños (3-12 años)">9 niños (3-12 años)</option>
+            <option value="10 niños menores de 3 años">10 niños (3-12 años)</option>
+            <option value="11 niños menores de 3 años">10 niños (3-12 años)</option>
+            <option value="12 niños menores de 3 años">10 niños (3-12 años)</option>
+            <option value="13 niños menores de 3 años">10 niños (3-12 años)</option>
+            <option value="14 niños menores de 3 años">10 niños (3-12 años)</option>
+            <option value="15 niños menores de 3 años">10 niños (3-12 años)</option>
+            <option value="16 niños menores de 3 años">10 niños (3-12 años)</option>
+            <option value="17 niños menores de 3 años">10 niños (3-12 años)</option>
+            <option value="18 niños menores de 3 años">10 niños (3-12 años)</option>
+            <option value="19 niños menores de 3 años">10 niños (3-12 años)</option>
+            <option value="20 niños menores de 3 años">10 niños (3-12 años)</option>
+        </select>
+
+        <div class="inputBox">
+            <input type="text" name="nombre-cliente" required placeholder="tu nombre">
+            <input type="number" name="teléfono" required placeholder="número de teléfono">
+        </div>
+
+        <div class="inputBox">
+            <input type="email" name="email" id="email" placeholder="correo electrónico">
+        </div>
+
+        <div class="inputBox">
+            <input type="text" name="carnet-de-identidad" required placeholder="carnet de identidad del que reserva">
+            <input type="text" name="punto-de-recogida" required placeholder="punto de recogida">
+            <input type="text" name="numero-de-transferencia" required placeholder="# de transferencia (XX000XX00X000)">
+        </div>
+
+        <input type="submit" value="reservar ahora" class="btn">
+
+    </form>
+    </section>
+
+
+    <!-- CONTACT SECTION ENDS -->
+
+
+ 
+
+<!-- FOOTER SECTION STARTS -->
+
+<section class="footer">
+
+    <div class="footer-margin" >
+        
+        <div class="box-container">
+            <div class="box" data-aos="fade-up">
+            <h3>Nuestros destinos</h3>
+            <a href="trinidad.html"><i class="fas fa-map-marker-alt"> </i>Trinidad</a>
+            <a href="las-terrazas.html"><i class="fas fa-map-marker-alt"> </i>Las Terrazas</a>
+            <a href="soroa.html"><i class="fas fa-map-marker-alt"> </i>Soroa</a>
+            <a href="cienfuegos.html"><i class="fas fa-map-marker-alt"> </i>Cienfuegos</a>
+            <a href="viñales.html"><i class="fas fa-map-marker-alt"> </i>Viñales</a>
+            <a href="varadero.html"><i class="fas fa-map-marker-alt"> </i>Varadero</a>
+            </div>
+    </div>
+
+    <div class="box-container" >
+        <div class="box" data-aos="fade-up">
+            <h3>Enlaces rápidos</h3>
+            <a href="#home"><i class="fas fa-chevron-right"> </i>Inicio</a>
+            <a href="#packages"><i class="fas fa-chevron-right"> </i>Eventos</a>
+            <a href="#services"><i class="fas fa-chevron-right"> </i>Servicios</a>
+            <a href="#review"><i class="fas fa-chevron-right"> </i>Reseñas</a>
+            <a href="reserva.html"><i class="fas fa-chevron-right"> </i>Reservar</a>
+        </div>
+    </div>
+
+    <div class="box-container">
+        <div class="box" data-aos="fade-up">
+            <h3>Contacto</h3>
+            <a href="#"><i class="fas fa-map-marker-alt"></i>La Habana, Cuba </a>
+            <a href="tel:+5354073262"><i class="fas fa-phone"></i>+5354073262</a>
+            <a href="mailto:eventosdestinados@gmail.com"><i class="fas fa-envelope"></i>eventosdestinados@gmail.com </a>
+        </div>
+    </div>
+
+    <div class="box-container">
+        <div class="box" data-aos="fade-up">
+            <h3>Siguenos</h3>
+            <a href="https://www.facebook.com/eventosdestinados"><i class="fa-brands fa-facebook-f"></i>facebook</a>
+            <a href="https://www.instagram.com/eventos_destinados/"><i class="fa-brands fa-instagram"></i>instagram </a>
+        </div>
+    </div>
+
+    </div>
+
+    <div class="credit" ><span>destinados</span> | todos los derechos reservados
+    </div>
+
+</section>
+
+    <!-- FOOTER SECTION ENDS -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+<!-- custom js file link -->
+<script src="js/script.js"></script>
+
+<script>
+    AOS.init();
+</script>
+
+</body>
+</html>
+    
+
+
